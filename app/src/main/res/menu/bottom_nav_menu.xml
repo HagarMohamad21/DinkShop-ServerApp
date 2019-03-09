@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/newIcon" android:title="New"
+        android:icon="@drawable/ic_new"></item>
+
+    <item android:id="@+id/ProssingIcon" android:title="Processing"
+        android:icon="@drawable/ic_blender"></item>
+
+    <item android:id="@+id/ShippingIcon" android:title="Shipping"
+        android:icon="@drawable/ic_shipping"></item>
+    <item android:id="@+id/DeliveredIcon"
+        android:title="Delivered"
+        android:icon="@drawable/ic_delivered"></item>
+
+    <item android:id="@+id/Cancelled"
+        android:title="Cancelled"
+        android:icon="@drawable/ic_cancel"></item>
+
+
+</menu>

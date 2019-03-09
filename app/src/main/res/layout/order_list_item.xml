@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView
+android:elevation="10dp"
+android:layout_margin="5dp"
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:clipToPadding="true"
+app:cardCornerRadius="5dp"
+android:background="@android:color/white"
+
+android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="5dp"
+        android:orientation="horizontal"
+        android:weightSum="5"
+        android:background="@android:color/white"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:text="Order Number :"
+            android:textSize="15sp"
+            android:textColor="@color/darkBrown"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:textSize="14sp"
+            android:textAlignment="center"
+            android:text="#20"
+            android:textColor="@color/colorAccent"
+            android:id="@+id/OrderNumber"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="5dp"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:background="@android:color/white"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Total Price :"
+            android:textColor="@color/darkBrown"
+            android:textSize="15sp" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:textSize="14sp"
+            android:textAlignment="center"
+            android:text="15$"
+            android:background="@drawable/price_txt_background"
+            android:textColor="@android:color/white"
+            android:id="@+id/OrderPrice"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="5dp"
+        android:orientation="horizontal"
+        android:weightSum="5"
+        android:background="@android:color/white"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:text="Order Status:"
+            android:textSize="15sp"
+            android:textColor="@color/darkBrown"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:textSize="14sp"
+            android:textAlignment="center"
+            android:text="Placed"
+            android:textColor="@color/colorAccent"
+            android:id="@+id/OrderStaus"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="5dp"
+        android:orientation="horizontal"
+        android:weightSum="5"
+        android:background="@android:color/white"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:text="Comment :"
+            android:textSize="15sp"
+            android:textColor="@color/darkBrown"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:textSize="14sp"
+            android:textAlignment="center"
+            android:maxLines="3"
+            android:ellipsize="end"
+            android:text=""
+            android:textColor="@color/colorAccent"
+            android:id="@+id/OrderComment"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="5dp"
+        android:orientation="horizontal"
+        android:weightSum="5"
+        android:background="@android:color/white"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:text="User Address:"
+            android:textSize="15sp"
+            android:textColor="@color/darkBrown"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:textSize="14sp"
+            android:textAlignment="center"
+            android:maxLines="3"
+            android:ellipsize="end"
+            android:text=""
+            android:textColor="@color/colorAccent"
+            android:id="@+id/UserAddress"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:text="Call"
+        android:id="@+id/CallButton"
+        android:drawableLeft="@drawable/ic_call_black_24dp"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="match_parent"
+        android:text="Update Order Status"
+        android:id="@+id/UpdateOrderButton"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:layout_height="wrap_content" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:padding="5dp"
+            android:id="@+id/toggleRoot"
+            android:background="@color/grey"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Show Order Details "
+                android:textSize="12sp"
+                android:id="@+id/textView"
+                android:layout_centerVertical="true"
+                android:textColor="@android:color/white"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:layout_width="30dp"
+                android:src="@drawable/ic_arrow_drop_down_black_24dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:id="@+id/toggleExpandBtn"
+                android:layout_height="30dp" />
+        </RelativeLayout>
+        <com.github.aakira.expandablelayout.ExpandableLinearLayout
+            android:id="@+id/expandableLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/toggleRoot"
+            android:orientation="vertical"
+            app:ael_duration="400"
+            app:ael_expanded="false"
+            >
+            <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:padding="5dp"
+                android:id="@+id/orderDetailsList"
+                android:layout_height="wrap_content">
+
+            </android.support.v7.widget.RecyclerView>
+
+
+        </com.github.aakira.expandablelayout.ExpandableLinearLayout>
+    </RelativeLayout>
+
+
+
+</LinearLayout>
+</android.support.v7.widget.CardView>

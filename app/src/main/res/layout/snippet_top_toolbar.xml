@@ -1,0 +1,33 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/border_bottom">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="?attr/actionBarSize">
+
+            <TextView
+                android:id="@+id/toolbar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="Update Order Status"
+                android:textColor="@color/grey" />
+
+
+       <ImageView
+    android:layout_width="30dp"
+    android:layout_gravity="right"
+           android:id="@+id/saveChanges"
+           android:src="@drawable/ic_check_black_24dp"
+    android:layout_height="30dp" />
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+</merge>

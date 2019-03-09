@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "787008360528",
+    "firebase_url": "https://drinkshopserver-829ee.firebaseio.com",
+    "project_id": "drinkshopserver-829ee",
+    "storage_bucket": "drinkshopserver-829ee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:787008360528:android:33db5cb22eada38b",
+        "android_client_info": {
+          "package_name": "app.sunshine.android.example.com.drinkshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "787008360528-6cqtutq8ia4i6bvj6b8f1v0ajajd8m1l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.sunshine.android.example.com.drinkshop",
+            "certificate_hash": "2edb1c938a5d871c9a8805c24c16768c86738615"
+          }
+        },
+        {
+          "client_id": "787008360528-fpmue2dqe6s6pv8dmu14vb9bo4kuhg4t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWM-HiT-Uz1Cv_jjV6FjfCQp3-ifg7HVE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "787008360528-fpmue2dqe6s6pv8dmu14vb9bo4kuhg4t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:787008360528:android:930418f348aca3bf",
+        "android_client_info": {
+          "package_name": "app.sunshine.android.example.com.drinkshopserver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "787008360528-nbf74ifut0opl2okrre8pe73jhjj4ked.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.sunshine.android.example.com.drinkshopserver",
+            "certificate_hash": "2edb1c938a5d871c9a8805c24c16768c86738615"
+          }
+        },
+        {
+          "client_id": "787008360528-fpmue2dqe6s6pv8dmu14vb9bo4kuhg4t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWM-HiT-Uz1Cv_jjV6FjfCQp3-ifg7HVE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "787008360528-fpmue2dqe6s6pv8dmu14vb9bo4kuhg4t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
