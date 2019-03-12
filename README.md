@@ -1,5 +1,5 @@
 # DinkShop-ServerApp
-online drinks ordering system based on php backend this is the frontend app
+online drinks ordering system based on php backend this is the backend app
 
 ![IMG-20190311-WA0004](https://user-images.githubusercontent.com/27670207/54212782-0a763380-44ec-11e9-87a3-d79214862506.jpg)
 ![IMG-20190311-WA0005](https://user-images.githubusercontent.com/27670207/54212785-0b0eca00-44ec-11e9-8d53-1d9a2d67d8a3.jpg)
